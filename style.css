@@ -24,7 +24,7 @@
 }
 
 .titolo h1 {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .titolo h3 {
@@ -38,5 +38,14 @@
 
 .titolo p {
     color: grey;
+    font-size: 10px;
+}
+
+.tim-photo {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tim-photo p {
     font-size: 10px;
 }
