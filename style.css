@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.logo {
+    background: url(img/pattern.png);
+    background-color: dodgerblue;
+    height: 120px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    height: 60px;
+    width: 100%;
+}
+
+.titolo {
+    width: 1000px;
+    margin: auto;
+}
+
+.titolo h1 {
+    font-size: 40px;
+}
+
+.titolo h3 {
+    text-align: left;
+    color: grey;
+}
+
+.titolo span {
+    color: deepskyblue;
+}
+
+.titolo p {
+    color: grey;
+    font-size: 10px;
+}
