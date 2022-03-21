@@ -41,6 +41,10 @@
     font-size: 10px;
 }
 
+main {
+    font-family: 
+}
+
 .tim-photo {
     margin-top: 20px;
     text-align: center;
@@ -48,4 +52,22 @@
 
 .tim-photo p {
     font-size: 10px;
+}
+
+.testo1 p {
+    margin: auto;
+    padding-top: 20px;
+    font-size: 15px;
+    width: 50%;
+}
+
+.testo1 span {
+    background-color: yellow;
+}
+
+.testo2 {
+    margin: auto;
+    padding-top: 30px;
+    font-size: 15px;
+    width: 50%;
 }
