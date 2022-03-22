@@ -5,6 +5,7 @@
     font-family: 'Roboto Slab', serif;
 }
 
+/* intestazione logo */
 .logo {
     position: relative;
     background: url(img/pattern.png);
@@ -24,7 +25,9 @@
     height: 60px;
     width: 250px;
 }
+/* chiusura intestazione logo */
 
+/* core */
 main {
     margin: auto;
     height: 100vh;
@@ -72,79 +75,40 @@ main {
     padding-top: 30px;
     font-size: 15px;
 }
+/* chiusura core */
 
-.table {
+/* tabella */
+table {
     margin-top: 30px;
-    font-size: 13px;
-    font-weight: bold;
+    font-size: 12px;
+    border-collapse: collapse;
+    text-align: center;
 }
 
-.table .row-left {
-    float: left;
-    width: 20%;
-}
-
-.row-left #top-left {
+table thead {
     background-color: deepskyblue;
     color: white;
-    padding: 5px 0;
 }
 
-.row-left .left {
-    background-color: lightblue;
-    color: steelblue;
-    padding: 20px 0;
+tbody #cell1 {
+    background-color: lightskyblue;
+    font-weight: 600;
+    color:dodgerblue;
 }
 
-.row-left #left2 {
-    color: steelblue;
-    padding: 20px 0;
+table tbody {
+    font-weight: 600;
+    color:dodgerblue;
 }
 
-.table .row-center {
-    float: left;
-    width: 20%;
+table tfoot {
+    background-color: lightskyblue;
+    font-weight: 600;
+    color:dodgerblue;
 }
+/* fine tabella */
 
-.row-center #top-center {
-    background-color: deepskyblue;
-    color: white;
-    padding: 5px 0;
-}
-
-.row-center .center {
-    background-color: lightblue;
-    color: steelblue;
-    padding: 20px 0;
-}
-
-.row-center #center2 {
-    color: steelblue;
-    padding: 20px 0;
-}
-
-.table .row-right {
-    float: left;
-    width: 60%;
-}
-
-.row-right #top-right {
-    background-color: deepskyblue;
-    color: white;
-    padding: 5px 0;
-}
-
-.row-right .right {
-    background-color: lightblue;
-    color: steelblue;
-    padding: 11px 0;
-}
-
-.row-right #right2 {
-    color: steelblue;
-    padding: 11px 0;
-}
-
+/* testo terza parte */
 .testo3 {
     margin: 30px 0;
 }
@@ -157,6 +121,7 @@ main {
     background-color: yellow;
 }
 
+/* contenuto footer */
 footer #footer-text {
     margin: 15px 0;
 }
